@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <title>mounterior | Best Interior</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0579f7222a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="mainweb">
+    <nav>
+        <div class="navbar">
+            <a href=""><img src="images/logo.svg" alt=""></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#" class="login">Register</a></li>
+            </ul>
+        </div>        
+        <div class="main">
+            <h1>Mounterior Will Help Makes Your Design <span>Modern</span>World</h1>
+            <p>Our enginner is the best around the world.to create your dream come true</p>
+            <a href="#" class="login">SHOP</a>
+        </div>
+        <span class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+    </nav>
+    <section class="content">
+        <div class="aboutus">
+            <h1>About Us</h1>
+            <div class="bawah">
+                <img src="images/meeting.jpg" alt="">           
+                <div class="right">
+                    <h2>Our Works Our Office</h2>
+                    <p>Our experience is more than 14 years in the interior world, we are based in the city of Hamburg, Germany and have clients from all around the world.</p>     
+                </div> 
+            </div>
+               
+        </div>
+        <div class="services">
+            <h1>Services</h1>
+            <p>we provide the best people to help you design, we will come to you and discuss about what you need.</p>
+            <p>We provide several products that you can buy in our shop, we give a discount for each specific purchase </p>
+            <p>We provide several products that you can buy in our shop, we give a discount for each specific purchase </p>
+        </div>
+        <div class="galeri">
+            <h1>Portfolio</h1>
+            <div class="imggaleri">
+                <div class="pertama">
+                        <img src="images/portfolio1.jpg" alt="" class="satu">   
+                        <span class="span1"><img src="images/portfolio2.jpg" alt="" class="dua"></span>
+                </div>
+                <div class="kedua">
+                        <span class="span2"><img src="images/portfolio3.jpg" alt="" class="tiga"></span>
+                        <img src="images/portfolio4.jpg" alt="" class="empat">
+                </div>                                                                 
+            </div>            
+        </div>
+        <h1 class="kontak">Contact</h1>
+    </section>
+    <footer>
+        <div class="footer1">
+            <h1>"If You need Something, we'll help you with pleasure"</h1>
+            <div class="form">
+                <label for="nama">Name</label>
+                <input id="nama" class="email" placeholder="Your Name...">
+                <label for="email">E-mail</label>
+                <input type="email" class="email" placeholder="Your email...">
+                <label for="contact">Phone number</label>
+                <input type="number" id="contact" class="email" placeholder="Contact Number...">
+                <label for="message">What do you need, please?</label>
+                <input type="text" id="message" class="email" placeholder="Message...">
+                <button type="submit" class="get-start"><span>Send</span></button>
+            </div>
+            
+        </div>
+        <div class="footer2">
+            <img src="images/logo.svg" alt="">
+            <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Jobs</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <ul class="sosial-media">
+                <li><a href="https://www.facebook.com/" class="a"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/home?lang=en-id" class="a"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=en" class="a"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.hamburger');
+        const nav = document.querySelector('.navbar');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
